@@ -36,6 +36,8 @@
     <string name="header_category_personal">PERSONAL</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">SYSTEM</string>
+    <!-- Settings main menu category heading. Paranoid (Stuffs, blah, preferences, about team). [CHAR LIMIT=40] -->
+    <string name="header_category_paranoid">PARANOID</string>
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
@@ -4888,6 +4890,20 @@
 
     <!-- Performance Settings | Warning dialog -->
     <string name="performance_settings_warning_header">Warning</string>
+
+    <!-- About -->
+    <string name="about_pa_settings_title">About Paranoid</string>
+    <string name="devs">Da PA Team</string>
+    <string name="pa">Paranoid Android</string>
+    <string name="pa_website_title">Paranoid Android Website</string>
+    <string name="pa_website_summary">www.paranoid-rom.com \n Find all the latest news of ParanoidAndroid here.</string>
+    <string name="pa_source_title">Paranoid Android Source</string>
+    <string name="pa_source_summary">ParanoidAndroid is fully open source. You can always check out the latest source at github.com/ParanoidAndroid</string>
+    <string name="pa_review_title">Paranoid Android Gerrit</string>
+    <string name="pa_review_summary">PA\'s Code Review is meant for submitting and testing patches.</string>
+    <string name="about_pa">About Paranoid Android</string>
+    <string name="about_pa_summary">@null</string>
+    <string name="links">Links</string>
 
     <!-- PropModder -->
     <string name="propmodder_title">Build.prop Mods</string>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   android:title="@string/about_pa_settings_title"
+	xmlns:pa="http://schemas.android.com/apk/res/com.android.settings">
+
+	<PreferenceCategory
+		android:key="links"
+		android:title="@string/links">
+
+        <Preference
+            android:key="pa_website"
+            android:title="@string/pa_website_title"
+            android:summary="@string/pa_website_summary" />
+
+        <Preference
+            android:key="pa_forum"
+            android:title="@string/pa_review_title"
+            android:summary="@string/pa_review_summary" />
+
+        <Preference
+            android:key="pa_source"
+            android:title="@string/pa_source_title"
+            android:summary="@string/pa_source_summary" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="devs"
+		android:title="@string/devs">
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Jesús David"
+            pa:nameDev="d4rkn3ssys"
+            pa:twitterHandle="D4rKn3sSyS" />
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Daniel MM"
+            pa:nameDev="daxxmax"
+            pa:twitterHandle="daxxmax" />
+
+		<com.android.settings.widgets.DeveloperPreference
+            android:title="Bidyut"
+            pa:nameDev="gokussjx"
+            pa:twitterHandle="gokussjx" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
