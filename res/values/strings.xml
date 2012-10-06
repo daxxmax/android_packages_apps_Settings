@@ -4325,6 +4325,7 @@
     <string name="toggle_wifi">Wi-Fi</string>
     <string name="toggle_wifi_ap">Wi-Fi AP</string>
     <string name="toggle_usb_tether">USB Tether</string>
+    <string name="toggle_ticker">Ticker Pop-up</string>
 
     <!-- Combined Bar  -->
     <string name="combined_bar_title">Combined bar</string>
@@ -4392,8 +4393,13 @@
     <string name="status_bar_signal_text_hidden">Hidden</string>
     <string name="status_bar_max_notifications_title">Number of notification icons</string>
     <string name="status_bar_max_notifications_summary">Applies only to portrait view</string>
+<<<<<<< HEAD
     <string name="status_bar_transparency_title">Transparency</string>
     <string name="status_bar_transparency_summary">Adjust status bar transparency</string>
+=======
+    <string name="status_bar_ticker_title">Notification ticker pop-up</string>
+    <string name="status_bar_ticker_summary">Whether or not to show the nag overlay for incoming messages</string>
+>>>>>>> 003ab26666142154ba3852a4aae9c7565951a945
 
     <string name="lock_screen_title">Lock screen</string>
 
